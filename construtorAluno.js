@@ -3,7 +3,7 @@ function criaAluno(nome, idade, turma) {
     exibeAluno: function exibeAluno() {
       const span = document.querySelector(".divAluno");
       const aluno = document.createElement("span");
-      aluno.innerHTML = `Nome do aluno ${nome} a idade é ${idade} e está na turma ${turma}</br>`;
+      aluno.innerHTML = `Nome do aluno ${nome} a idade é ${idade} e está na turma ${turma}</br></br>`;
       span.appendChild(aluno);
     },
   };

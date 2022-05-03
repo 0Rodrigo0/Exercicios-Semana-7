@@ -3,7 +3,7 @@ function criaProfessor(nome, idade, matéria) {
     mostraProfessor: function exibeProfessor() {
       const span = document.querySelector(".divProfessor");
       const professor = document.createElement("span");
-      professor.innerHTML = `Nome do professor é ${nome}, idade é ${idade}, da aula de ${matéria}</br>`;
+      professor.innerHTML = `Nome do professor é ${nome}, idade é ${idade}, da aula de ${matéria}</br></br>`;
       span.appendChild(professor);
     },
   };

@@ -1,3 +1,5 @@
+//objeto comum
+
 let nomeAluno1 = "José";
 let idadeAluno1 = 20;
 let turmaAluno1 = "6A";
