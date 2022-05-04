@@ -14,7 +14,7 @@ const alunoModelo = {
 const alunoLuis = Object.create(alunoModelo, {
   nome: {
     value: "Luis Carlos Elias",
-    writable: true,
+    writable: true, // variaveis opcionais para alterar valores do objeto
     configurable: true,
     enumerable: true,
   },
