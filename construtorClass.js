@@ -13,3 +13,6 @@ class Aluno {
     span.appendChild(aluno);
   }
 }
+
+const aluno = new Aluno("Zé", 323, "6B");
+aluno.imprimeAluno();
